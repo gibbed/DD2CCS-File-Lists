@@ -1,4 +1,4 @@
-; 15567/16289 (95%)
+; 15571/16289 (95%)
 natives/stm/animation/ch/ch00/motlist/ch00_000_atk.motlist.751
 natives/stm/animation/ch/ch00/motlist/ch00_000_com.motlist.751
 natives/stm/animation/ch/ch00/motlist/ch00_000_com_tree.motlist.751
@@ -14921,6 +14921,7 @@ natives/stm/systems/shader/vfx/billboardcompute.vsdf.230815083
 natives/stm/systems/shader/vfx/billboarddraw.vsdf.230815083
 natives/stm/systems/shader/vfx/computeshaders.vsdf.230815083
 natives/stm/systems/shader/vfx/coprocess/coprocess.vsdf.230815083
+natives/stm/systems/shader/vfx/coprocess/terrainsnapcoprocess.vsdf.230815083
 natives/stm/systems/shader/vfx/fluid/fluid.sdf.230815080
 natives/stm/systems/shader/vfx/fluid/renderer.sdf.230815080
 natives/stm/systems/shader/vfx/lightingvfx.vsdf.230815083
