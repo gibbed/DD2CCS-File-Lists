@@ -1,4 +1,4 @@
-; 15571/16289 (95%)
+; 15591/16289 (95%)
 natives/stm/animation/ch/ch00/motlist/ch00_000_atk.motlist.751
 natives/stm/animation/ch/ch00/motlist/ch00_000_com.motlist.751
 natives/stm/animation/ch/ch00/motlist/ch00_000_com_tree.motlist.751
@@ -14756,6 +14756,8 @@ natives/stm/systems/rendering/bluenoise/scramblingtile_128spp.gpbf.2
 natives/stm/systems/rendering/bluenoise/scramblingtile_256spp.gpbf.2
 natives/stm/systems/rendering/bluenoise/sobol_256spp_256d.gpbf.2
 natives/stm/systems/rendering/bluenoise16x16.tex.760230703
+natives/stm/systems/rendering/cloud_base_3d_mip2_msk2.tex.760230703
+natives/stm/systems/rendering/cloud_base_3d_msk2.tex.760230703
 natives/stm/systems/rendering/cloud_base_rd_mip2_msk2.tex.760230703
 natives/stm/systems/rendering/cloud_base_rd_msk2.tex.760230703
 natives/stm/systems/rendering/cloud_detail_3d_msk1.tex.760230703
@@ -14823,6 +14825,7 @@ natives/stm/systems/rendering/yp.rtex.5
 natives/stm/systems/rendering/zn.rtex.5
 natives/stm/systems/rendering/zp.rtex.5
 natives/stm/systems/shader/advancedsystem.sdf.230815080
+natives/stm/systems/shader/alembicmesh/alembicmesh.sdf.230815080
 natives/stm/systems/shader/ambientocclusion.sdf.230815080
 natives/stm/systems/shader/atmosphere.sdf.230815080
 natives/stm/systems/shader/atmosphere2.sdf.230815080
@@ -14877,6 +14880,7 @@ natives/stm/systems/shader/primitivegui.sdf.230815080
 natives/stm/systems/shader/primitivegui_hdroutput.sdf.230815080
 natives/stm/systems/shader/primitivegui_rttoutput.sdf.230815080
 natives/stm/systems/shader/primitivegui_srgboutput.sdf.230815080
+natives/stm/systems/shader/primitivevfx_billboard2d.vsdf.230815083
 natives/stm/systems/shader/primitivevfxdebug.vsdf.230815083
 natives/stm/systems/shader/rasterizer/swrasterizer.sdf.230815080
 natives/stm/systems/shader/raytracelensflare/raytracelensflare.sdf.230815080
@@ -14922,8 +14926,10 @@ natives/stm/systems/shader/vfx/billboarddraw.vsdf.230815083
 natives/stm/systems/shader/vfx/computeshaders.vsdf.230815083
 natives/stm/systems/shader/vfx/coprocess/coprocess.vsdf.230815083
 natives/stm/systems/shader/vfx/coprocess/terrainsnapcoprocess.vsdf.230815083
+natives/stm/systems/shader/vfx/coprocess/vortexelsnapcoprocess.vsdf.230815083
 natives/stm/systems/shader/vfx/fluid/fluid.sdf.230815080
 natives/stm/systems/shader/vfx/fluid/renderer.sdf.230815080
+natives/stm/systems/shader/vfx/layoutvfx.vsdf.230815083
 natives/stm/systems/shader/vfx/lightingvfx.vsdf.230815083
 natives/stm/systems/shader/vfx/lightningcompute.vsdf.230815083
 natives/stm/systems/shader/vfx/lightningdraw.vsdf.230815083
@@ -15215,6 +15221,8 @@ natives/stm/vfx/effects/weapon/wp01/13_wp01_enchant_00.efx.4064419
 natives/stm/vfx/effects/weapon/wp01/13_wp01_enchant_01.efx.4064419
 natives/stm/vfx/effects/weapon/wp01/13_wp01_enchant_10.efx.4064419
 natives/stm/vfx/effects/weapon/wp01/13_wp01_enchant_11.efx.4064419
+natives/stm/vfx/effects/weapon/wp01/13_wp01_enchant_20.efx.4064419
+natives/stm/vfx/effects/weapon/wp01/13_wp01_enchant_21.efx.4064419
 natives/stm/vfx/effects/weapon/wp01/13_wp01_enchant_30.efx.4064419
 natives/stm/vfx/effects/weapon/wp01/13_wp01_enchant_31.efx.4064419
 natives/stm/vfx/effects/weapon/wp02/001/13_wp02_001_enchant_15.efx.4064419
@@ -15378,8 +15386,14 @@ natives/stm/vfx/effects/weapon/wp04/013/13_wp04_013_enchant_26.efx.4064419
 natives/stm/vfx/effects/weapon/wp04/013/13_wp04_013_enchant_36.efx.4064419
 natives/stm/vfx/effects/weapon/wp04/13_wp04_enchant_00.efx.4064419
 natives/stm/vfx/effects/weapon/wp04/13_wp04_enchant_01.efx.4064419
+natives/stm/vfx/effects/weapon/wp04/13_wp04_enchant_10.efx.4064419
+natives/stm/vfx/effects/weapon/wp04/13_wp04_enchant_11.efx.4064419
 natives/stm/vfx/effects/weapon/wp04/13_wp04_enchant_16.efx.4064419
+natives/stm/vfx/effects/weapon/wp04/13_wp04_enchant_20.efx.4064419
+natives/stm/vfx/effects/weapon/wp04/13_wp04_enchant_21.efx.4064419
 natives/stm/vfx/effects/weapon/wp04/13_wp04_enchant_26.efx.4064419
+natives/stm/vfx/effects/weapon/wp04/13_wp04_enchant_30.efx.4064419
+natives/stm/vfx/effects/weapon/wp04/13_wp04_enchant_31.efx.4064419
 natives/stm/vfx/effects/weapon/wp04/13_wp04_enchant_36.efx.4064419
 natives/stm/vfx/effects/weapon/wp04/014/13_wp04_014_enchant_16.efx.4064419
 natives/stm/vfx/effects/weapon/wp04/014/13_wp04_014_enchant_26.efx.4064419
@@ -15403,6 +15417,12 @@ natives/stm/vfx/effects/weapon/wp07/006/13_wp07_006_enchant_31.efx.4064419
 natives/stm/vfx/effects/weapon/wp07/006/13_wp07_006_ref.pfb.17
 natives/stm/vfx/effects/weapon/wp07/13_wp07_enchant_00.efx.4064419
 natives/stm/vfx/effects/weapon/wp07/13_wp07_enchant_01.efx.4064419
+natives/stm/vfx/effects/weapon/wp07/13_wp07_enchant_10.efx.4064419
+natives/stm/vfx/effects/weapon/wp07/13_wp07_enchant_11.efx.4064419
+natives/stm/vfx/effects/weapon/wp07/13_wp07_enchant_20.efx.4064419
+natives/stm/vfx/effects/weapon/wp07/13_wp07_enchant_21.efx.4064419
+natives/stm/vfx/effects/weapon/wp07/13_wp07_enchant_30.efx.4064419
+natives/stm/vfx/effects/weapon/wp07/13_wp07_enchant_31.efx.4064419
 natives/stm/vfx/effects/weapon/wp07/wp07_mat_10.user.2
 natives/stm/vfx/effects/weapon/wp09/001/13_wp09_001_enchant_15.efx.4064419
 natives/stm/vfx/effects/weapon/wp09/001/13_wp09_001_enchant_16.efx.4064419
